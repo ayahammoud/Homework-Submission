@@ -1,0 +1,17 @@
+h1
+{
+  color:purple;
+}
+.header{
+  color:blue;
+  border-bottom-style:inset;
+  border-bottom-color:black;
+}
+.head{
+  color:red;
+  font-size:25px;
+}
+.cool{
+  font-size:25px;
+}
+#pa{color:yellow;}
