@@ -1,0 +1,21 @@
+/* database homework */
+
+//1 SELECT * FROM Employee
+
+//2 SELECT First_Name FROM Employee 
+    WHERE First_Name LIKE 'S%'
+
+//3 SELECT City_of_Residence FROM Employee
+
+//4 SELECT EmployeeID, First_Name, Last_Name, City_of_Residence FROM Employee
+WHERE City_of_Residence='Toronto' OR City_of_Residence='Mississauga'
+
+//5 SELECT First_Name, Last_Name, City_of_Residence FROM Employee
+    WHERE EmployeeID =320 OR EmployeeID >320 AND City_of_Residence='Mississauga'
+    LIMIT 3
+
+//6 SELECT * FROM Employee
+    order by EmployeeID Asc
+
+//7 INSERT INTO Employee (First_Name, Last_Name, City_of_Residence)
+VALUES ('Aya', 'Hammoud', 'Toronto');
